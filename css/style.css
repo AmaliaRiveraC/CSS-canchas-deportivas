@@ -1,0 +1,10 @@
+h1 {
+	color: green;
+	margin: 0 auto;
+}
+
+.contenedor {
+     width: 1000px; 
+     height: 500px; 
+     background: #428bca;
+}
