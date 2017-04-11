@@ -1,0 +1,51 @@
+#contenedorTennis {
+     width: 1000px; 
+     height: 500px; 
+     background: #0B6121;
+     border: 3px solid white;
+     position: relative;
+     display: block;
+}
+
+
+#lineaHorizontal {
+    background-color: aliceblue;
+    height: 2px;
+    width: 1000px;
+    position: absolute;
+    margin-top: 100px;
+}
+
+#lineaHorizontalDos {
+    background-color: aliceblue;
+    height: 2px;
+    width: 1000px;
+    position: absolute;
+    margin-top: 400px;
+}
+
+#lineaPequenaHorizontal {
+    background-color: aliceblue;
+    height: 2px;
+    width: 500px;
+    margin-left: 250px;
+    position: absolute;
+    margin-top: 250px;
+}
+
+#lineaVerticalIzquierda {
+    height: 60%;
+    border-left: 2px solid white;
+    margin-left: 250px;
+    margin-top: 101px;
+    position: absolute;
+}
+
+#lineaDerecha {
+    height: 60%;
+    border-right: 2px solid white;
+    margin-left: 750px;
+    margin-top: 101px;
+    position: absolute;
+}
+

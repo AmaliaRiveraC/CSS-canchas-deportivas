@@ -7,13 +7,13 @@ botonBasketbol.addEventListener("click", mostrarCanchaBasketbol);
 botonTennis.addEventListener("click", mostrarCanchaTennis);
 
 function mostrarCanchaFutbol() {
-	alert("css");
+	document.getElementById("contenedorFutbol").style.display = "block";
 }
 
 function mostrarCanchaBasketbol() {
-	alert("bienvenido");
+    document.getElementById("contenedorBasketbol").style.display = "block";
 }
 
-function mostrarCanchaTennis() {
- 	alert("a mi vida");
+function mosstrarCanchaTennis() {
+    document.getElementById("contenedorTennis").style.display = "block";
 }

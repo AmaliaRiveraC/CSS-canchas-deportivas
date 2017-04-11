@@ -4,6 +4,8 @@
 		<meta charset="utf-8">
 		<title>CSS Canchas-Deportivas</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/canchaBasketbol.css">
+        <link rel="stylesheet" type="text/css" href="css/canchaTennis.css">
 	</head>
 	<body>
 		<header>
@@ -14,15 +16,35 @@
 			<button id="botonBasketbol">Basketbol</button>
 			<button id="botonTennis">Tennis</button>
 		</section>
-		<section id="canchaFutbol">
-			<div class="contenedor">
-				<div id="porteria"></div>
-				<div id="areachica"></div>
-				<div id="centro"></div>
-			</div>
+		<section>
+            <div class="canchas">
+                <div id="contenedorFutbol">
+				    <div id="porteriaIzquierda"></div>
+				    <div id="areaChicaIzquierda"></div>
+				    <div id="centro"></div>
+                    <div class="lineaCentral"></div>
+                    <div id="porteriaDerecha"></div>
+                    <div id="areaChicaDerecha"></div>
+                </div>
+            </div>
+            <div class="canchas">
+                <div class="contenedorBasketbol">
+                    <div id=""></div>
+                    <div id=""></div>
+                    <div id="lineaCentroBasketbol"></div>
+                </div>
+            </div>    
+            <div class="canchas">
+                <div id="contenedorTennis">
+                    <div class="lineaCentral"></div>
+                    <hr id="lineaHorizontal">
+                    <hr id="lineaPequenaHorizontal">
+                    <hr id="lineaHorizontalDos">
+                    <div id="lineaVerticalIzquierda"></div>
+                    <div id="lineaDerecha"></div>
+                </div>
+            </div>
 		</section>
-		<section id="canchaBasketbol"></section>
-		<section id="canchaTennis"></section>
 		<script src="js/main.js">
 		</script>
 	</body>
