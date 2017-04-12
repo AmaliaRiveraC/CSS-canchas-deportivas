@@ -1,29 +1,26 @@
-var botonFut = document.getElementById("botonFutbol");
-var botonBasket  = document.getElementById("botonBasketbol");
-var botonTennis = document.getElementById("botonTennis");
-var canchaFutbol = document.getElementById("contenedorFutbol");
-//var canchaBasketbol = document.getElementById("contenedorBasketbol");
-var canchaTennis = document.getElementById("contenedorTennis");
+//manda llamar por clase los 3 botones y las tres canchas para poder cambiar de una a otra 
+var boton = document.getElementsByClassName("boton"); 
+var canchas = document.getElementsByClassName("canchas");
 
-botonFutbol.addEventListener("click", mostrarCanchaFutbol);
-botonBasketbol.addEventListener("click", mostrarCanchaBasketbol);
-botonTennis.addEventListener("click", mostrarCanchaTennis);
+//Le agrega a cada botón un evento click que se encargara de ejecutar las funciones que muestran las canchas
+boton[0].addEventListener("click", mostrarCanchaFutbol);
+boton[1].addEventListener("click", mostrarCanchaBasketbol);
+boton[2].addEventListener("click", mostrarCanchaTennis);
 
 function mostrarCanchaFutbol() {
-	canchaFutbol.style.display = "block";
-    //document.getElementById("contenedorBasketbol").style.display = "none";
-    canchaTennis.style.display = "none";
+	canchas[0].style.display = "block";
+    canchas[1].style.display = "none";//document.getElementById("contenedorBasketbol").style.display = "none";
+    canchas[2].style.display = "none";
 }
 
 function mostrarCanchaBasketbol() {
-    /*canchaBasketbol.style.display = "block";
-    canchaFutbol.style.display = "none";
-    canchaTennis.style.display = "none";*/
-    alert("Hola css")
+    canchas[1].style.display = "block";
+    canchas[0].style.display = "none";
+    canchas[2].style.display = "none";
 }
 
 function mostrarCanchaTennis() {
-    canchaTennis.style.display = "block";
-    //document.getElementById("contenedorBasketbol").style.display = "none";
-    canchaFutbol.style.display = "none";
+    canchas[2].style.display = "block";
+    canchas[0].style.display = "none";
+    canchas[1].style.display = "none";
 }

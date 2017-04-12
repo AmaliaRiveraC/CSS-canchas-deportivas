@@ -4,7 +4,7 @@ h1 {
 }
 
 
-#contenedorFutbol {
+.canchas {
      width: 1000px; 
      height: 500px; 
      background: green;
@@ -12,6 +12,7 @@ h1 {
      position: relative; 
      display: none;
 }
+
 
 #porteriaIzquierda {
     width: 100px;
